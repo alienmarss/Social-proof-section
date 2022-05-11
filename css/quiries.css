@@ -1,0 +1,85 @@
+/* ********************FOR PHONES*************************** */
+
+@media only screen and (max-width: 50em) {
+	.grid-2-cols {
+		grid-template-columns: 1fr;
+		grid-template-rows: auto;
+		justify-content: center;
+		align-items: center;
+		justify-items: center;
+	}
+	.grid-3-cols {
+		grid-template-columns: 0.9fr;
+		grid-template-rows: auto;
+		justify-content: center;
+		align-items: center;
+		justify-items: center;
+	}
+	.container {
+		max-width: 50rem;
+		height: 92.7rem;
+	}
+	.background {
+		max-width: 50rem;
+		height: 92.7rem;
+		background-image: url(../images/bg-pattern-top-mobile.svg),
+			url(../images/bg-pattern-bottom-mobile.svg);
+		background-size: 100% 40%, 100% 30%;
+	}
+	.header {
+		font-size: 3rem;
+		font-weight: 700;
+		padding: 5rem 8rem 2rem 8rem;
+		text-align: center;
+	}
+	.stats-p {
+		font-size: 1.7rem;
+		padding: 0 3rem;
+		text-align: center;
+	}
+	.rates {
+		padding: 5rem 0;
+		align-items: center;
+	}
+	.reviews {
+		display: flex;
+		flex-direction: column;
+		width: 32rem;
+		height: 8rem;
+		align-items: center;
+		gap: 1.5rem;
+		justify-content: center;
+		padding-left: 0;
+	}
+	.report {
+		display: flex;
+		flex-direction: column;
+		width: 32rem;
+		height: 8rem;
+		align-items: center;
+		gap: 1.5rem;
+		justify-content: center;
+		padding-left: 0;
+		margin-left: 0;
+	}
+	.besttech {
+		display: flex;
+		flex-direction: column;
+		width: 32rem;
+		height: 8rem;
+		align-items: center;
+		gap: 1.5rem;
+		justify-content: center;
+		padding-left: 0;
+		margin-left: 0;
+	}
+	.testimonials {
+		padding: 0;
+	}
+	.testimonial3 {
+		margin-top: 3rem;
+	}
+	.attribution {
+		padding: 5rem 0;
+	}
+}
